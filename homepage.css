@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+.header-container{
+    border-radius: 0 0 6px 6px;
+    align-items: center;
+    display: flex;
+    color: white;
+    background: #000fdb;
+    width: 100vw;
+    height: 80px;
+}
+.header-container h1{
+  font-size: 30px;
+    padding: 0 30px;
+    font-weight: 600;
+}
+
+.menu-icon{
+    margin-top: 8px;
+}
+
+.menu-container {
+    text-align: center;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown button {
+    font-weight: 700;
+    background-color: #000fdb;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .dropdown button:focus {
+    outline: none;
+  }
+
+  .dropdown button .icon {
+    margin-left: 10px;
+    transition: transform 0.3s ease;
+  }
+
+  .dropdown-content {
+    border-radius: 10px;
+    display: none;
+    position: absolute;
+    background-color: #f0f0f0;
+    min-width: 160px;
+    box-shadow: 0px 0px 16px rgba(29, 29, 29, 0.2);
+    z-index: 31;
+    left: -70px;
+    top: 185%;
+    margin: 0;
+  }
+
+  .dropdown-content a {
+    color: #000fdb;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover {
+    color: white;
+    background-color: #000fdb;
+    transition: 0.2s ease;
+  }
+
+  .highlight {
+    background-color: #838bfd;
+  }
+
+  .dropdown.open .dropdown-content {
+    display: block;
+  }
+
+  .dropdown.open button .icon {
+    transform: rotate(180deg);
+  }
+
+  .header-desktop{
+    display: none;
+  }
+
+  /*MEDIA QUERYS*/
+
+ @media (min-width: 900px) {
+  .header-desktop{
+    display: inherit;
+  }
+
+  .header{
+    display: none;
+  }
+  .header-container-desktop{
+    border-radius: 0 0 5px 5px;
+    align-items: center;
+    padding: 0 30px 0;
+    justify-content: space-between;
+    display: flex;
+    color: white;
+    background: #000fdb;
+    width: 100vw;
+    height: 80px;
+  }
+
+  #STYLEfitnesstxt{
+    font-weight: 600;
+    font-size: 30px;
+  }
+
+  .desktop-menu ul{
+    list-style-type: none;
+    display: flex;
+  }
+
+  .desktop-menu ul li{
+    padding: 3px;
+    box-sizing: border-box;
+  }
+
+  .desktop-menu ul a{
+    align-items: center;
+    display: flex;
+    padding: 0 10px;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+  }
+
+  .mtr{
+    padding: 3px 5px;
+    border-radius: 20px;
+    border: 1px solid white;
+  }
+  .mtr a{
+    padding: 10px;
+  }
+}
