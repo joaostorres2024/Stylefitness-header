@@ -1,0 +1,51 @@
+ <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/login-page.css">
+    <title>STYLEfitness - faça seu login!</title>
+</head>
+<body>
+    <main>
+        <!--TAMANHO DE TELA MOBILE 0 - 1199PX-->
+        <section class="login-page-mobile">
+            <div class="main-container">   
+                <img id="logo-preto" src="/img/logo-preto.png" alt="">
+                <h1 id="Conecte-se">Conecte-se</h1>
+                <form class="input-form" action="#">
+                    <input class="input" id="input-email" type="email" placeholder="Email">
+                    <input class="input" id="input-password" type="password" placeholder="Senha">
+                    <span class="forgot-register"><a href="#">Esqueceu sua senha</a><p> ou </p><a href="#">Não tem uma conta?</a></span>
+                </form>
+                <form action="#" class="midia-login">
+                    <a href=""><img id="google" class="midia-icon" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDQ4IDQ4Ij4KCTxwYXRoIGZpbGw9IiNmZmMxMDciIGQ9Ik00My42MTEgMjAuMDgzSDQyVjIwSDI0djhoMTEuMzAzYy0xLjY0OSA0LjY1Ny02LjA4IDgtMTEuMzAzIDhjLTYuNjI3IDAtMTItNS4zNzMtMTItMTJzNS4zNzMtMTIgMTItMTJjMy4wNTkgMCA1Ljg0MiAxLjE1NCA3Ljk2MSAzLjAzOWw1LjY1Ny01LjY1N0MzNC4wNDYgNi4wNTMgMjkuMjY4IDQgMjQgNEMxMi45NTUgNCA0IDEyLjk1NSA0IDI0czguOTU1IDIwIDIwIDIwczIwLTguOTU1IDIwLTIwYzAtMS4zNDEtLjEzOC0yLjY1LS4zODktMy45MTciIC8+Cgk8cGF0aCBmaWxsPSIjZmYzZDAwIiBkPSJtNi4zMDYgMTQuNjkxbDYuNTcxIDQuODE5QzE0LjY1NSAxNS4xMDggMTguOTYxIDEyIDI0IDEyYzMuMDU5IDAgNS44NDIgMS4xNTQgNy45NjEgMy4wMzlsNS42NTctNS42NTdDMzQuMDQ2IDYuMDUzIDI5LjI2OCA0IDI0IDRDMTYuMzE4IDQgOS42NTYgOC4zMzcgNi4zMDYgMTQuNjkxIiAvPgoJPHBhdGggZmlsbD0iIzRjYWY1MCIgZD0iTTI0IDQ0YzUuMTY2IDAgOS44Ni0xLjk3NyAxMy40MDktNS4xOTJsLTYuMTktNS4yMzhBMTEuOSAxMS45IDAgMCAxIDI0IDM2Yy01LjIwMiAwLTkuNjE5LTMuMzE3LTExLjI4My03Ljk0NmwtNi41MjIgNS4wMjVDOS41MDUgMzkuNTU2IDE2LjIyNyA0NCAyNCA0NCIgLz4KCTxwYXRoIGZpbGw9IiMxOTc2ZDIiIGQ9Ik00My42MTEgMjAuMDgzSDQyVjIwSDI0djhoMTEuMzAzYTEyLjA0IDEyLjA0IDAgMCAxLTQuMDg3IDUuNTcxbC4wMDMtLjAwMmw2LjE5IDUuMjM4QzM2Ljk3MSAzOS4yMDUgNDQgMzQgNDQgMjRjMC0xLjM0MS0uMTM4LTIuNjUtLjM4OS0zLjkxNyIgLz4KPC9zdmc+" alt=""></a>
+                    <a href=""><img id="facebook" class="midia-icon" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0Ij4KCTxnIGZpbGw9Im5vbmUiPgoJCTxnIGNsaXAtcGF0aD0idXJsKCNha2FySWNvbnNGYWNlYm9va0ZpbGwwKSI+CgkJCTxwYXRoIGZpbGw9IiNmZmYiIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTAgMTIuMDY3QzAgMTguMDM0IDQuMzMzIDIyLjk5NCAxMCAyNHYtOC42NjdIN1YxMmgzVjkuMzMzYzAtMyAxLjkzMy00LjY2NiA0LjY2Ny00LjY2NmMuODY2IDAgMS44LjEzMyAyLjY2Ni4yNjZWOEgxNS44Yy0xLjQ2NyAwLTEuOC43MzMtMS44IDEuNjY3VjEyaDMuMmwtLjUzMyAzLjMzM0gxNFYyNGM1LjY2Ny0xLjAwNiAxMC01Ljk2NiAxMC0xMS45MzNDMjQgNS40MyAxOC42IDAgMTIgMFMwIDUuNDMgMCAxMi4wNjciIGNsaXAtcnVsZT0iZXZlbm9kZCIgLz4KCQk8L2c+CgkJPGRlZnM+CgkJCTxjbGlwUGF0aCBpZD0iYWthckljb25zRmFjZWJvb2tGaWxsMCI+CgkJCQk8cGF0aCBmaWxsPSIjZmZmIiBkPSJNMCAwaDI0djI0SDB6IiAvPgoJCQk8L2NsaXBQYXRoPgoJCTwvZGVmcz4KCTwvZz4KPC9zdmc+" alt=""></a>
+                    <a href=""><img id="outlook" class="midia-icon" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDMyIDMyIj4KCTxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0xOS40ODQgNy45Mzd2NS40NzdsMS45MTYgMS4yMDVhLjUuNSAwIDAgMCAuMjEgMGw4LjIzOC01LjU1NGExLjE3NCAxLjE3NCAwIDAgMC0uOTU5LTEuMTI4WiIgLz4KCTxwYXRoIGZpbGw9IiNmZmYiIGQ9Im0xOS40ODQgMTUuNDU3bDEuNzQ3IDEuMmEuNTIuNTIgMCAwIDAgLjU0MyAwYy0uMy4xODEgOC4wNzMtNS4zNzggOC4wNzMtNS4zNzh2MTAuMDY2YTEuNDA4IDEuNDA4IDAgMCAxLTEuNDkgMS41NTVoLTguODc0em0tOS4wNDQtMi41MjVhMS42MSAxLjYxIDAgMCAwLTEuNDIuODM4YTQuMTMgNC4xMyAwIDAgMC0uNTI2IDIuMjE4QTQuMDUgNC4wNSAwIDAgMCA5LjAyIDE4LjJhMS42IDEuNiAwIDAgMCAyLjc3MS4wMjJhNCA0IDAgMCAwIC41MTUtMi4yYTQuMzcgNC4zNyAwIDAgMC0uNS0yLjI4MWExLjU0IDEuNTQgMCAwIDAtMS4zNjYtLjgwOSIgLz4KCTxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0yLjE1MyA1LjE1NXYyMS40MjdMMTguNDUzIDMwVjJabTEwLjkwOCAxNC4zMzZhMy4yMyAzLjIzIDAgMCAxLTIuNyAxLjM2MWEzLjE5IDMuMTkgMCAwIDEtMi42NC0xLjMxOEE1LjQ2IDUuNDYgMCAwIDEgNi43MDYgMTYuMWE1Ljg3IDUuODcgMCAwIDEgMS4wMzYtMy42MTZhMy4yNyAzLjI3IDAgMCAxIDIuNzQ0LTEuMzg0YTMuMTIgMy4xMiAwIDAgMSAyLjYxIDEuMzIxYTUuNjQgNS42NCAwIDAgMSAxIDMuNDg0YTUuNzYgNS43NiAwIDAgMS0xLjAzNSAzLjU4NiIgLz4KPC9zdmc+" alt=""></a>
+                </form>
+            </div>
+        </section>
+        <!--TAMANHO DE TELA DESKTOP 1200PX - &-->
+        <section class="login-page-desktop">
+            <div class="left-container">
+                <img id="man-img" src="/img/portrait-athletic-male-dressed-blue-sportswear-holds-dumbbell-dark-grey-background.png" alt="">
+            </div>
+            <div class="right-container">   
+                    <img id="logo-preto-desktop" src="/img/logo-preto.png" alt="">
+                    <h1 id="Conecte-se2">Conecte-se</h1>
+                    <form class="input-form-desktop" action="#">
+                        <input class="input" id="input-email" type="email" placeholder="Email">
+                        <input class="input" id="input-password" type="password" placeholder="Senha">
+                        <span class="forgot-register"><a href="#">Esqueceu sua senha</a><p> ou </p><a href="#">Não tem uma conta?</a></span>
+                    </form>
+                    <form action="#" class="midia-login">
+                        <a href="#"><img id="google" class="midia-icon" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDQ4IDQ4Ij4KCTxwYXRoIGZpbGw9IiNmZmMxMDciIGQ9Ik00My42MTEgMjAuMDgzSDQyVjIwSDI0djhoMTEuMzAzYy0xLjY0OSA0LjY1Ny02LjA4IDgtMTEuMzAzIDhjLTYuNjI3IDAtMTItNS4zNzMtMTItMTJzNS4zNzMtMTIgMTItMTJjMy4wNTkgMCA1Ljg0MiAxLjE1NCA3Ljk2MSAzLjAzOWw1LjY1Ny01LjY1N0MzNC4wNDYgNi4wNTMgMjkuMjY4IDQgMjQgNEMxMi45NTUgNCA0IDEyLjk1NSA0IDI0czguOTU1IDIwIDIwIDIwczIwLTguOTU1IDIwLTIwYzAtMS4zNDEtLjEzOC0yLjY1LS4zODktMy45MTciIC8+Cgk8cGF0aCBmaWxsPSIjZmYzZDAwIiBkPSJtNi4zMDYgMTQuNjkxbDYuNTcxIDQuODE5QzE0LjY1NSAxNS4xMDggMTguOTYxIDEyIDI0IDEyYzMuMDU5IDAgNS44NDIgMS4xNTQgNy45NjEgMy4wMzlsNS42NTctNS42NTdDMzQuMDQ2IDYuMDUzIDI5LjI2OCA0IDI0IDRDMTYuMzE4IDQgOS42NTYgOC4zMzcgNi4zMDYgMTQuNjkxIiAvPgoJPHBhdGggZmlsbD0iIzRjYWY1MCIgZD0iTTI0IDQ0YzUuMTY2IDAgOS44Ni0xLjk3NyAxMy40MDktNS4xOTJsLTYuMTktNS4yMzhBMTEuOSAxMS45IDAgMCAxIDI0IDM2Yy01LjIwMiAwLTkuNjE5LTMuMzE3LTExLjI4My03Ljk0NmwtNi41MjIgNS4wMjVDOS41MDUgMzkuNTU2IDE2LjIyNyA0NCAyNCA0NCIgLz4KCTxwYXRoIGZpbGw9IiMxOTc2ZDIiIGQ9Ik00My42MTEgMjAuMDgzSDQyVjIwSDI0djhoMTEuMzAzYTEyLjA0IDEyLjA0IDAgMCAxLTQuMDg3IDUuNTcxbC4wMDMtLjAwMmw2LjE5IDUuMjM4QzM2Ljk3MSAzOS4yMDUgNDQgMzQgNDQgMjRjMC0xLjM0MS0uMTM4LTIuNjUtLjM4OS0zLjkxNyIgLz4KPC9zdmc+" alt=""></a>
+                        <a href="#  "><img id="facebook" class="midia-icon" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0Ij4KCTxnIGZpbGw9Im5vbmUiPgoJCTxnIGNsaXAtcGF0aD0idXJsKCNha2FySWNvbnNGYWNlYm9va0ZpbGwwKSI+CgkJCTxwYXRoIGZpbGw9IiNmZmYiIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTAgMTIuMDY3QzAgMTguMDM0IDQuMzMzIDIyLjk5NCAxMCAyNHYtOC42NjdIN1YxMmgzVjkuMzMzYzAtMyAxLjkzMy00LjY2NiA0LjY2Ny00LjY2NmMuODY2IDAgMS44LjEzMyAyLjY2Ni4yNjZWOEgxNS44Yy0xLjQ2NyAwLTEuOC43MzMtMS44IDEuNjY3VjEyaDMuMmwtLjUzMyAzLjMzM0gxNFYyNGM1LjY2Ny0xLjAwNiAxMC01Ljk2NiAxMC0xMS45MzNDMjQgNS40MyAxOC42IDAgMTIgMFMwIDUuNDMgMCAxMi4wNjciIGNsaXAtcnVsZT0iZXZlbm9kZCIgLz4KCQk8L2c+CgkJPGRlZnM+CgkJCTxjbGlwUGF0aCBpZD0iYWthckljb25zRmFjZWJvb2tGaWxsMCI+CgkJCQk8cGF0aCBmaWxsPSIjZmZmIiBkPSJNMCAwaDI0djI0SDB6IiAvPgoJCQk8L2NsaXBQYXRoPgoJCTwvZGVmcz4KCTwvZz4KPC9zdmc+" alt=""></a>
+                        <a href="#"><img id="outlook" class="midia-icon" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDMyIDMyIj4KCTxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0xOS40ODQgNy45Mzd2NS40NzdsMS45MTYgMS4yMDVhLjUuNSAwIDAgMCAuMjEgMGw4LjIzOC01LjU1NGExLjE3NCAxLjE3NCAwIDAgMC0uOTU5LTEuMTI4WiIgLz4KCTxwYXRoIGZpbGw9IiNmZmYiIGQ9Im0xOS40ODQgMTUuNDU3bDEuNzQ3IDEuMmEuNTIuNTIgMCAwIDAgLjU0MyAwYy0uMy4xODEgOC4wNzMtNS4zNzggOC4wNzMtNS4zNzh2MTAuMDY2YTEuNDA4IDEuNDA4IDAgMCAxLTEuNDkgMS41NTVoLTguODc0em0tOS4wNDQtMi41MjVhMS42MSAxLjYxIDAgMCAwLTEuNDIuODM4YTQuMTMgNC4xMyAwIDAgMC0uNTI2IDIuMjE4QTQuMDUgNC4wNSAwIDAgMCA5LjAyIDE4LjJhMS42IDEuNiAwIDAgMCAyLjc3MS4wMjJhNCA0IDAgMCAwIC41MTUtMi4yYTQuMzcgNC4zNyAwIDAgMC0uNS0yLjI4MWExLjU0IDEuNTQgMCAwIDAtMS4zNjYtLjgwOSIgLz4KCTxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0yLjE1MyA1LjE1NXYyMS40MjdMMTguNDUzIDMwVjJabTEwLjkwOCAxNC4zMzZhMy4yMyAzLjIzIDAgMCAxLTIuNyAxLjM2MWEzLjE5IDMuMTkgMCAwIDEtMi42NC0xLjMxOEE1LjQ2IDUuNDYgMCAwIDEgNi43MDYgMTYuMWE1Ljg3IDUuODcgMCAwIDEgMS4wMzYtMy42MTZhMy4yNyAzLjI3IDAgMCAxIDIuNzQ0LTEuMzg0YTMuMTIgMy4xMiAwIDAgMSAyLjYxIDEuMzIxYTUuNjQgNS42NCAwIDAgMSAxIDMuNDg0YTUuNzYgNS43NiAwIDAgMS0xLjAzNSAzLjU4NiIgLz4KPC9zdmc+" alt=""></a>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
