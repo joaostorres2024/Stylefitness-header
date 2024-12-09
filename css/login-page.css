@@ -188,11 +188,7 @@
 
 @media (min-width: 1550px){
     
-    *{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
+    c
     .login-page-desktop{
         display: inherit;
         width: 100vw;
