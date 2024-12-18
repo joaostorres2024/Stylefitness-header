@@ -93,6 +93,101 @@
 }
 
 /*MEDIA TABLET*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*MEDIA QUERY PARA CELULAR*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+.login-page-desktop{
+    display: none;
+}
+
+.main-container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+#logo-preto{
+    width: 120px;
+}
+
+#Conecte-se{
+    text-align: center;
+    font-size: 25px;
+}
+
+.input-form{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input{
+    margin-top: 15px;
+    padding: 20px;
+    background-color: #F0F0F0;
+    border: none;
+    border-radius: 30px;
+    height: 55px;
+    width: 320px;
+}
+
+.input:focus{
+    transition: 0.2s ease-in;
+    outline: 1px solid #0803d8;
+    transition: 0.3s ease-in;
+}
+
+.forgot-register{
+    text-align: center;
+    padding: 15px 0;
+    display: flex;
+    font-size: 12px;
+}
+
+.forgot-register a{
+    padding: 0 5px;
+}
+
+.midia-login{
+    padding: 40px 0;
+}
+
+.midia-icon{
+    width: 85px;
+    border-radius: 10px;
+    padding: 12px 25px;
+}
+
+#google{
+    background-color: white;
+    border: 1px solid #BDBDBD;
+}
+
+#facebook{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #0084FF;
+    border: 1px solid #0084FF;
+}
+
+#outlook{
+    background-color: #26009A;
+    border: 1px solid #26009A;
+}
+
+/*MEDIA TABLET*/
 @media (min-width: 720px) and (max-width: 1549px) {
     *{
         margin: 0;
@@ -102,7 +197,19 @@
     }
     
     .login-page-desktop{
+        height: 100vh;
+        width: 100vw;
         display: none;
+    }
+
+    .left-container{
+        width: 35vw;
+        float: left;
+    }
+
+    .right-container{
+        width: 65vw;
+        float: right;
     }
     
     .main-container{
@@ -189,6 +296,111 @@
 @media (min-width: 1550px){
     
     c
+    .login-page-desktop{
+        width: 100vw;
+        height: 100vh;
+    }   
+
+    .login-page-mobile{
+        display: none;
+    }
+    .left-container{
+        height: 100vh;
+        background: linear-gradient( #0803d8, #26009A);
+        width: 35vw;
+        float: left;
+    }
+
+    .right-container{
+        height: 100vh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        width: 65vw;
+        float: right;
+    }
+    #logo-preto-desktop{
+        width: 170px;
+    }
+    
+    #Conecte-se2{
+        text-align: center;
+        font-size: 40px;
+    }
+    
+    .input-form-desktop{
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .input{
+        margin-top: 10px;
+        padding: 20px;
+        background-color: #F0F0F0;
+        border: none;
+        border-radius: 30px;
+        height: 55px;
+        width: 360px;
+    }
+    
+    .input:focus{
+        transition: 0.2s ease-in;
+        outline: 1px solid #0803d8;
+        transition: 0.3s ease-in;
+    }
+    
+    .forgot-register{
+        text-align: center;
+        padding: 15px 0;
+        display: flex;
+        font-size: 15px;
+    }
+    
+    .forgot-register a{
+        padding: 0 5px;
+    }
+    
+    .midia-login{
+        padding: 40px 0;
+    }
+    
+    .midia-icon{
+        width: 100px;
+        border-radius: 10px;
+        padding: 12px 25px;
+    }
+    
+    #google{
+        background-color: white;
+        border: 1px solid #BDBDBD;
+    }
+    
+    #facebook{
+        margin-left: 10px;
+        margin-right: 10px;
+        background-color: #0084FF;
+        border: 1px solid #0084FF;
+    }
+    
+    #outlook{
+        background-color: #26009A;
+        border: 1px solid #26009A;
+    }
+
+    #man-img{
+        margin-left: 100px;
+        position: fixed;    
+        height: 100%;
+    }
+}
+
+/*MEDIA DESKTOP*/
+
+@media (min-width: 1550px){
+    
     .login-page-desktop{
         display: inherit;
         width: 100vw;
@@ -286,7 +498,7 @@
 
     #man-img{
         margin-left: 100px;
-        position: fixed;    
+        position: absolute;    
         height: 100%;
     }
 }
